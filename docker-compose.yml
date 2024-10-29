@@ -19,6 +19,7 @@ services:
       - mongodb
     networks:
       - trello-app
+    user: "appuser"  
 
   mongodb:
     container_name: trello-mongo
