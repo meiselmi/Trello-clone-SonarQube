@@ -9,7 +9,6 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./:/usr/src/app/trello
       - /usr/src/app/trello/node_modules
       - /usr/src/app/trello/.next
       - /usr/src/app/trello/.husky
